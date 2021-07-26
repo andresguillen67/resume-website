@@ -1,3 +1,15 @@
 #Resume {
     border-radius: 50%;
 }
+.skills { 
+    color: white;
+    background-color: red;
+    width: 210px;
+    border: 15px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#google {
+    text-align: center;
+}
