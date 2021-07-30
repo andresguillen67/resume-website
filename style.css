@@ -34,15 +34,31 @@
     border-radius: 3%;
     padding: 20px; 
     float: left;
+    margin-right: 5px;
 }
 
 .Menu {
     text-align: center;
 }
 
-#Links {
+/* unvisited link */
+#Links a:visited {
     list-style-position: inside;
+    color: white;
 }
+
+#Links ul {
+    list-style-type: none;
+}
+
+#Links li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.05em;
+  }
 
 #Info {
     color: white;
@@ -51,12 +67,41 @@
     text-align: center;
     border-radius: 2%;
     position: bottom;
-    margin: 6px;
     float: left;
-    width: 1050px;
     height: 440px;
     overflow: hidden;
+    flex-grow: 1;
+    /* margin-left: 5px; */
 }
 
 
+.wrapper {
+    padding: 0px;
+    display: flex;
+    width: 100%;
+}
+
+body {
+    margin: 5px;
+}
+
+#footer {
+    align: center;
+    margin: 10px 0px;
+}
+
+#ContactInfo {
+    color: black;
+    background-color: blue;
+    border-radius: 3%;
+    margin: 0px 5px;
+    
+}
+
+#ContactInfo ul {
+    list-style-type: none;
+    margin: 0px 5px;
+    height: 440px;
+    border-radius: 3%;
+}
 
