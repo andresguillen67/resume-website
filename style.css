@@ -27,14 +27,15 @@
     font-style: italic; 
     color: white;
     background-color: blue;
-    width: 235px;
-    height: 400px;
+    min-width: 250px;
+    max-width: 30%;
+    /* height: 400px; */
     border: 0px solid blue; 
     display: block;
-    border-radius: 3%;
+    border-radius: 10px;
     padding: 20px; 
     float: left;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .Menu {
@@ -66,7 +67,6 @@
     font-style: italic; 
     text-align: center;
     border-radius: 2%;
-    position: bottom;
     float: left;
     height: 440px;
     overflow: hidden;
@@ -76,9 +76,15 @@
 
 
 .wrapper {
-    padding: 0px;
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px;
     width: 100%;
+    
 }
 
 body {
@@ -91,7 +97,7 @@ body {
 }
 
 #ContactInfo {
-    color: black;
+    color: white;
     background-color: blue;
     border-radius: 3%;
     margin: 0px 5px;
@@ -107,24 +113,23 @@ body {
 }
 
 .resumecontent {
-    color: rgb(255, 238, 0); 
+    color: white;
     background-color: blue;
-    text-align: right;
-    float: right;
+    font-style: italic; 
+    text-align: center;
+    border-radius: 10px;
+    height: 1400px;
     overflow: hidden;
-    flex-shrink: inherit;
-    border-radius: 3%;
-    width:  1040px;
-    margin: 5px 5px;
-    font-style: italic;
-    height: 1170px;
-    padding-bottom: 50px;
-    display: inline-block;
+    align-items: flex-start;
+
+
 }
+
+
 
 .resumecontent li::before {
         content: "\2022";
-        color: rgb(219, 24, 24);
+        color: red;
         font-weight: bold;
         display: inline-block; 
         width: 1em;
