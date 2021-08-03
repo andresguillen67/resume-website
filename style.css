@@ -1,3 +1,32 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F4A460;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #D2691E;
+}
+
+
 #ResumePicture {
     border-radius: 50%;
 }
@@ -9,10 +38,8 @@
 
 
 .skills { 
-    color: white;
-    background-color: red;
-    width: 210px;
-    border: 15px solid black;
+    color: black;
+    border: 5px solid black;
     padding: 20px;
     margin: 20px;
 }
@@ -21,44 +48,14 @@
     text-align: center;
 }
 
-#profile {
-    text-align: left;
-    font: weight 900px;
-    font-style: italic; 
-    color: white;
-    background-color: blue;
-    width: 235px;
-    height: 400px;
-    border: 0px solid blue; 
-    display: block;
-    border-radius: 3%;
-    padding: 20px; 
-    float: left;
-    margin-right: 5px;
+.profile {
+    margin: 25px;
 }
 
 .Menu {
     text-align: center;
 }
 
-/* unvisited link */
-#Links a:visited {
-    list-style-position: inside;
-    color: white;
-}
-
-#Links ul {
-    list-style-type: none;
-}
-
-#Links li::before {
-    content: "\2022";
-    color: red;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1.05em;
-  }
 
 #Info {
     color: white;
@@ -133,4 +130,11 @@ body {
 
 .resumecontent ul {
     list-style-type: none;
+}
+.title{
+    font-size: 1.75em;
+}
+.page-wrapper{
+    background-color: #FFE4B5;
+    padding: 35px;
 }
