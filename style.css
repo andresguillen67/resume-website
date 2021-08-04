@@ -1,10 +1,12 @@
+.nav-bar-wrapper {
+    background-color: #d2691e;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F4A460;
 }
 
 li {
@@ -17,127 +19,111 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
-
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #D2691E;
+  background-color: #d2691e;
 }
-
 
 #ResumePicture {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-    div {
-    text-align: center;
+div {
+  text-align: center;
 }
 
-
-
-.skills { 
-    color: black;
-    border: 5px solid black;
-    padding: 20px;
-    margin: 20px;
+.skills {
+  color: black;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 20px;
 }
 
 #google {
-    text-align: center;
+  text-align: center;
 }
 
 .profile {
-    margin: 25px;
+  margin: 25px; 
 }
 
 .Menu {
-    text-align: center;
+  text-align: center;
 }
-
 
 #Info {
-    color: white;
-    font-style: italic; 
-    text-align: center;
-    border-radius: 2%;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  border-radius: 2%;
 }
 
-
 .wrapper {
-    padding: 0px;
-    display: flex;
-    width: 100%;
+  padding: 0px;
+  display: flex;
+  width: 100%;
 }
 
 body {
-    margin: 5px;
+  margin: 5px;
 }
 
 #footer {
-    text-align: center;
+  text-align: center;
 }
 
 #ContactInfo {
-    color: black;
-    border-radius: 3%;
-    margin: 0px 5px;
-    overflow: hidden;
-    
+  color: black;
+  border-radius: 3%;
+  margin: 0px 5px;
+  overflow: hidden;
 }
 
 #ContactInfo ul {
-    list-style-type: none;
-    margin: 0px 5px;
-    border-radius: 3%;   
-    height: 340px;
+  list-style-type: none;
+  margin: 0px 5px;
+  border-radius: 3%;
+  height: 340px;
 }
 
 .resumecontent {
-    color: black; 
-    text-align: right;
-    float: right;
-    overflow: hidden;
-    flex-shrink: inherit;
-    border-radius: 3%;
-    width:  1040px;
-    margin: 5px 5px;
-    font-style: italic;
-    height: 1170px;
-    padding-bottom: 50px;
-    display: inline-block;
+  color: black;
+  text-align: right;
+  overflow: hidden;
+  flex-shrink: inherit;
+  width: 1040px;
+  margin: 5px 5px;
+  font-style: italic;
+  height: px;
+  padding-bottom: 50px;
+  display: inline-block;
 }
 
 .resumecontent li::before {
-        content: "\2022";
-        font-weight: bold;
-        display: inline-block; 
-        width: 1em;
-        margin-left: -1.05em
+  content: "\2022";
+  display: inline-block;
+  width: 5em;
+  text-align: center;
+  background-color: #ffe4b5;
 }
 
-.resumecontent ul {
-    list-style-type: none;
+.title {
+  font-size: 1.75em;
 }
-.title{
-    font-size: 1.75em;
+.page-wrapper {
+  background-color: #ffe4b5;
+  padding: 35px;
+  height: 100%;
 }
-.page-wrapper{
-    background-color: #FFE4B5;
-    padding: 35px;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.info{
-    font-color: black;
+.info {
+  color: black;
 }
 
-body{
-    background-color: #FFE4B5;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+body {
+  background-color: #ffe4b5;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
