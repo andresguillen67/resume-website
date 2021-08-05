@@ -1,29 +1,8 @@
 .nav-bar-wrapper {
     background-color: #d2691e;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #d2691e;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 #ResumePicture {
@@ -66,10 +45,6 @@ div {
   width: 100%;
 }
 
-body {
-  margin: 5px;
-}
-
 #footer {
   text-align: center;
 }
@@ -88,42 +63,52 @@ body {
   height: 340px;
 }
 
-.resumecontent {
-  color: black;
-  text-align: right;
-  overflow: hidden;
-  flex-shrink: inherit;
-  width: 1040px;
-  margin: 5px 5px;
-  font-style: italic;
-  height: px;
-  padding-bottom: 50px;
-  display: inline-block;
-}
-
-.resumecontent li::before {
-  content: "\2022";
-  display: inline-block;
-  width: 5em;
-  text-align: center;
-  background-color: #ffe4b5;
-}
-
 .title {
   font-size: 1.75em;
 }
-.page-wrapper {
-  background-color: #ffe4b5;
-  padding: 35px;
-  height: 100%;
-}
+
 .info {
   color: black;
 }
 
 body {
   background-color: #ffe4b5;
-  height: 100%;
   margin: 0px;
   padding: 0px;
+  
+}
+
+
+/* CSS added by Cris */
+
+/* style for nav bar */
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d2691e;
+}
+
+.links li {
+  float: left;
+}
+
+.links a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-color: #f5c96c;
+}
+
+/* style for resume page */
+.resumecontent li{
+  list-style-type: none;
+  text-align: center;
+  margin-right: 40px;
 }
